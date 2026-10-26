@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bajrang Approved 🚩</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #160b05;
+    color: #fff3dc;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 35px;
+    background:
+        radial-gradient(ellipse at 35% 40%,
+        #74300b 0%, #301305 42%, #100804 100%);
+}
+
+.main {
+    max-width: 600px;
+    text-align: center;
+}
+
+.tag {
+    display: inline-block;
+    border: 1px solid #ffad43;
+    border-radius: 30px;
+    padding: 9px 18px;
+    color: #ffb74d;
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: clamp(45px, 7vw, 82px);
+    line-height: 0.98;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+h1 span {
+    color: #ff922e;
+}
+
+.subtitle {
+    color: #e5c8a8;
+    margin: 22px 0 28px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.play {
+    background: #ff922e;
+    color: #241005;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.play:hover {
+    background: #ffc06e;
+    transform: translateY(-2px);
+}
+
+.note {
+    font-size: 12px;
+    color: #bda28c;
+    margin-top: 16px;
+}
+
+.approval {
+    width: 230px;
+    min-width: 210px;
+    height: 230px;
+    border: 5px solid #ff6a21;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: rotate(12deg);
+    color: #ff7628;
+    box-shadow: 0 0 35px #ff5c1720;
+    position: relative;
+}
+
+.approval::before {
+    content: "";
+    position: absolute;
+    inset: 9px;
+    border: 2px dashed #ff7628;
+    border-radius: 50%;
+}
+
+.stamp {
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.stamp small {
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+footer {
+    position: absolute;
+    bottom: 17px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #8f7561;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 650px) {
+    .page {
+        flex-direction: column;
+        gap: 35px;
+        padding: 45px 20px 70px;
+    }
+
+    .approval {
+        width: 185px;
+        height: 185px;
+        min-width: 185px;
+    }
+
+    .stamp {
+        font-size: 20px;
+    }
+
+    footer {
+        position: static;
+        padding: 0 10px 15px;
+        background: #100804;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <main class="main">
+        <div class="tag">⚡ OFFICIAL VIBES ONLY ⚡</div>
+
+        <h1>JAI SHREE<br><span>RAM.</span> 🚩</h1>
+
+        <p class="subtitle">
+            Welcome to the divine side of the internet.<br>
+            Stress? Gone. Vibes? Immaculate.<br>
+            Bajrangbali's blessings: ON.
+        </p>
+
+        <button class="play" id="playButton"
+        onclick="toggleChalisa()">
+            🔊 PLAY HANUMAN CHALISA
+        </button>
+
+        <p class="note" id="status">
+            Click above if music doesn't start automatically.
+        </p>
+
+        <audio id="chalisa" autoplay loop>
+            <source src="hanuman-chalisa.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+
+    <aside class="approval">
+        <div class="stamp">
+            🚩<br>
+            BAJRANG DAL<br>
+            APPROVED<br>
+            
+        </div>
+    </aside>
+
+</div>
+
+<footer>
+    MADE WITH BHAKTI & INTERNET HUMOUR • JAI BAJRANGBALI
+</footer>
+
+<script>
+const audio = document.getElementById("chalisa");
+const button = document.getElementById("playButton");
+const status = document.getElementById("status");
+
+function toggleChalisa() {
+    if (audio.paused) {
+        audio.play().then(() => {
+            button.textContent = "⏸ PAUSE CHALISA";
+            status.textContent = "Jai Bajrangbali 🚩";
+        }).catch(() => {
+            status.textContent =
+                "Add hanuman-chalisa.mp3 beside index.html first.";
+        });
+    } else {
+        audio.pause();
+        button.textContent = "🔊 PLAY HANUMAN CHALISA";
+        status.textContent = "Music paused.";
+    }
+}
+
+audio.play().then(() => {
+    button.textContent = "⏸ PAUSE CHALISA";
+    status.textContent = "Jai Bajrangbali 🚩";
+}).catch(() => {
+    status.textContent =
+        "Browser blocked autoplay? Click the button above.";
+});
+</script>
+
+</body>
+</html>
