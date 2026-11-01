@@ -1,43 +1,66 @@
-# daiwik-website39
 <!DOCTYPE html>
-<html>
 <head>
-    <title>Daiwik Tiwari</title>
+    My song lyrics
+
+
+    <img src= "new-spider-man-brand-new-day-posters-released_hs64.jpg" height="500">
+    <audio controls>
+        <source src="FUNK TAKA.mp3" type="audio/mpeg">    
+    
+<head>
+    this is my song lyrics
 </head>
 
-<body style="background-color: #f5f5f0; font-family: Arial; margin: 40px;">
+<para></para>
+    
+    Thank God
+Ay
+I've been fuckin' hos and poppin' pillies, man, I feel just like a rockstar (ay, ay)
+All my brothers got that gas and they always be smokin' like a Rasta (mm)
 
-    <h1>Hi, I'm Daiwik Tiwari</h1>
+Fuckin' with me, call up on a Uzi and show up, man, them the shottas
+When my homies pull up on your block, they make that thing go grah-ta-ta-ta (ta, pow, pow, pow), ay, ay
+Switch my whip, came back in black, I'm startin' sayin', "Rest in peace to Bon Scott, " ay
 
-    <p>
-         I'm a student who enjoys learning new things
-        and exploring my interests.
-    </p>
+Close that door, we blowin' smoke, she ask me light a fire like I'm Morrison, ay
+Act a fool on stage, prolly leave my fuckin' show in a cop car, ay
 
-    <h2>My Interests</h2>
-    <ul>
-        <li>Playing badminton</li>
-        <li>Drawing</li>
-        <li>Reading books</li>
-        <li>Playing sports</li>
-    </ul>
+Cocaine on the table, liquor pourin'
+Don't give a damn, dude, your girlfriend is a groupie
+She just tryna get in
 
-    <h2>My Future Goal</h2>
-    <p>
-        I want to pursue Data Science in the future.
-        I'm interested in understanding data,
-        and learning new technologies step by step.
-    </p>
+Sayin', "I'm with the band", ay, ay
 
-    <h2>A Little About Me</h2>
-    <p>
-        I believe in staying determined, learning from
-        mistakes, and improving a little every day because thats what motivates me to get better 
-    </p>
+Now she actin' outta pocket
+Tryna grab up on my pants, hundred bitches in my trailer
+Say they ain't got a man
+And they all brought a friend, yeah, ay (ay, ay)
+I've been fuckin' hos and poppin' pillies, man, I feel just like a rockstar (ay, ay)
+All my brothers got that gas, and they always be smokin' like a Rasta (mm)
+      
+Fuckin' with me, call up on a Uzi, and show up, man, them the shottas
+When my homies pull up on your block, they make that thing go grrah-ta-ta-ta (ta, pow, pow, pow)
+I've been in the Hills fuckin' superstars feelin' like a popstar (21, 21, 21)
+Drankin' Henny, bad bitches jumpin' in the pool and they ain't got on no bra (bra)
+Hit her from the back, pullin' on her tracks and now she screamin' out, "No más!" (yeah, yeah, yeah)
+They like, "Savage, why you got a 12 car garage and you only got six cars?" (21)
+I ain't with the cakin', how you kiss that? (Kiss that)
+Your wifey say I'm lookin' like a whole snack (bitch)
+Green hundreds in my safe, I got old racks (old racks)
+L.A. bitches always askin', "Where the coke at?" (21, 21)
+Livin' like a rockstar, smash out on a cop car
+Sweeter than a Pop-Tart, you know you are not hard
+I done made the hot chart, 'member I used to trap hard?
+Livin' like a rockstar, I'm livin' like a rockstar (ay)
+I've been fuckin' hos and poppin' pillies, man, I feel just like a rockstar (ay, ay)
+All my brothers got that gas, and they always be smokin' like a Rasta (yeah, yeah, yeah, yeah)
+Fuckin' with me, call up on a Uzi, and show up, man, them the shottas (uh)
+When my homies pull up on your block, they make that thing go grrah-ta-ta-ta (ta, grrah-ta-ta-ta-ta)
+'Star, 'star
+Rockstar
+Rockstar, 'star (rockstar)
+Rockstar, feel just like a-
+Rockstar (rockstar)
 
-    <hr>
-
-    <p>Thanks for visiting my page</p>
-
-</body>
-</html>
+</audio>
+<video src="Str_7 - playlist by Dbtewari _ Spotify - Google Chrome 2026-10-28 15-38-55.mp4" controls>        </video>
